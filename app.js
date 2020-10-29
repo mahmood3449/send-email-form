@@ -7,6 +7,7 @@ let sendBtn = document.querySelector("#sendBtn");
 let resetBtn = document.querySelector("#resetBtn");
 let spinner = document.querySelector("#spinner");
 let loaders = document.querySelector("#loaders");
+let body = document.querySelector("body");
 // addEventListeners
 //addEventListeners for disabl btnsend
 document.addEventListener("DOMContentLoaded" , function(){
