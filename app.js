@@ -61,7 +61,7 @@ function sendMessage(e){
     setTimeout(() => {
     spinner.style.display = "none";
     let img = document.createElement("img");
-    img.src = "./img/mail.gif"
+    img.src = "mail.gif"
     img.style.display = "block"
     loaders.appendChild(img);
     setTimeout(() => {
