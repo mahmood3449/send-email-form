@@ -11,6 +11,13 @@ let loaders = document.querySelector("#loaders");
 //addEventListeners for disabl btnsend
 document.addEventListener("DOMContentLoaded" , function(){
     sendBtn.disabled = true;
+     let p = document.createElement("p");
+    p.classList.add("present");
+    p.innerText = "طراحی و اجرا توسط محمود کریمی";
+    body.appendChild(p);
+    setTimeout(() => {
+        document.querySelector(".present").remove();
+    }, 5000);
 })
 //addEventListeners for validate form
 email.addEventListener("blur" , validateFild);
