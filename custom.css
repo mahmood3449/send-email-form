@@ -37,6 +37,9 @@ form {
 #resetBtn {
     float: right;
 }
+.present{
+    text-align: center;
+}
 @font-face {
     font-family: Vazir;
     src: url('https://cdn.fontcdn.ir/Font/Persian/Vazir/Vazir.eot');
